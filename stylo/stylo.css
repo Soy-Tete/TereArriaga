@@ -1,0 +1,407 @@
+body{
+  background-image: url(../Img/fondoblanco.jpeg);
+  width: 100%;
+  flex-direction: row;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+body>header {
+  flex-direction: row;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+header {
+  background-image: url(../Img/fondo.png);
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+header img{
+  padding-bottom: 3rem;
+  padding-top: 4em;
+}
+
+
+.container {
+  background-size: 100% auto;
+  background-attachment: fixed;
+  max-width: 100%;
+  margin: 0;
+}
+
+.container-carousel {
+  background-size: 100% auto;
+  max-width: 100%;
+  margin: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.col-md-3 {
+  object-fit: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  max-width: 100%;
+  align-items: center;
+  
+}
+
+.container-fluid {
+  background-color: white;
+
+}
+
+.align-horizontal{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  justify-content: space-around;
+  font-size: calc(20px + 1vw);
+}
+
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
+.sucursales {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding:5%;
+  border-top-left-radius: 0%;
+  border-top-right-radius: 45%;
+  border-bottom-left-radius: 45%;
+  border-bottom-right-radius: 0%;
+  margin: 5% auto;
+}
+
+.fondoimg{
+  background: linear-gradient(95deg, rgba(3,8,14,1) 0%, rgba(6,66,119,1) 60%);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 0%;
+  border-bottom-left-radius: 0%;
+  border-bottom-right-radius: 50%;
+}
+
+#conocenostext{
+  margin: 0%;
+  padding-right: 5%;
+  padding-left: 5%;
+  text-align: justify;
+}
+
+.text {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  font-size: calc(20px + 1vw);
+  justify-content: center;
+}
+
+
+a{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  font-size: calc(15px + 1vw);
+  justify-content: center;
+  text-decoration-color:blue ;
+  color: black;
+}
+
+#logo {
+  flex: 4;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.text2 {
+  width: 100%;
+  text-align: center;
+  font-size: calc(20px + 1vw);
+  justify-content: center;
+}
+
+.titulos{
+  width: 100%;
+  text-align: center;
+  font-size: calc(40px + 1vw);
+  justify-content: center;
+}
+
+
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .header img {
+    width: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    flex-direction: row;
+  }
+
+  .navbar-toggler-icon {
+    justify-content: row;
+    align-items: center;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: none;
+  }
+
+
+  #logo {
+    flex: 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    max-width: 100%;
+    align-items: center;
+  }
+
+  #img1 {
+    display: none;
+  }
+
+  #img2{
+    display: flex;
+    flex: 4;
+  }
+
+  .menu{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    
+  }
+
+
+  .carousel-inner {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+  }
+
+  .carousel-inner .carousel-item {
+    position: relative;
+    display: none;
+    float: left;
+    width: 100%;
+  }
+
+  .carousel-inner .carousel-item.active {
+    display: block;
+  }
+
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: block;
+  }
+
+}
+
+  .text {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  font-size: calc(15px + 1vw);
+  justify-content: center;
+}
+
+.text2 {
+  width: 100%;
+  text-align: center;
+  font-size: calc(10px + 1vw);
+  justify-content: center;
+}
+
+a{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  font-size: calc(10px + 1vw);
+  justify-content: center;
+}
+
+.container-carousel {
+  background-size: 100% auto;
+  max-width: 99%;
+  margin: 0 auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.titulos{
+  width: 100%;
+  text-align: center;
+  font-size: calc(20px + 1vw);
+  justify-content: center;
+}
+
+
+@media (min-width: 768px) {
+  nav div h1 {
+    display: none;
+  }
+
+  .carousel {
+    width: 100%;
+    margin: 0;
+  }
+  
+
+}
+
+@media (min-width: 1024px) {
+  ul li {
+    display: flex;
+    text-align: left;
+  }
+
+  .container-carousel {
+    background-size: 100% auto;
+    max-width: 80%;
+    margin: 0 auto;
+    margin-top: 4%;
+    margin-bottom: 4%;
+  }
+
+  .carousel-inner .carousel-item img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    font-size: calc(15px + 1vw);
+    justify-content: center;
+  }
+  
+  .text2 {
+    width: 100%;
+    text-align: center;
+    font-size: calc(10px + 1vw);
+    justify-content: center;
+  }
+  
+  a{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    font-size: calc(10px + 1vw);
+    justify-content: center;
+  }
+
+  .titulos{
+    width: 100%;
+    text-align: center;
+    font-size: calc(30px + 1vw);
+    justify-content: center;
+  }
+  
+}
+
+@media (min-width: 1440px) {
+  ul li {
+    display: flex;
+    text-align: left;
+  }
+
+  .align-horizontal{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    text-align: center;
+    justify-content: space-around;
+    font-size: calc(25px + 1vw);
+  }
+  
+  .titulos{
+    width: 100%;
+    text-align: center;
+    font-size: calc(90px + 1vw);
+    justify-content: center;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    font-size: calc(35px + 1vw);
+    justify-content: center;
+  }
+  
+  .text2 {
+    width: 100%;
+    text-align: center;
+    font-size: calc(10px + 1vw);
+    justify-content: center;
+  }
+  
+  a ul li{
+    font-size: calc(600px + 1vw);
+  }
+  
+}
+
+
+
+@media (min-width: 2560px) {
+
+
+  .header img {
+    width: 100%;
+    max-width: 60%;
+    object-fit: contain;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  ul li {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  ul {
+    display: flex;
+  }
+
+}
+
+
+
+
+  
+
+ 

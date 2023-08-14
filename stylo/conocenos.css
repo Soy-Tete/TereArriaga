@@ -1,0 +1,12 @@
+#main{
+    padding-bottom: 80;
+}
+
+.lineascontacto{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
